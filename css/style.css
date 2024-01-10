@@ -92,3 +92,8 @@ li{
     color: #FFFF;
     text-decoration: none;
 }
+:root{
+    --footer-color:#2F303A;
+    --header-color:#2F303A;
+    --main-color:#a9aaae;
+}
