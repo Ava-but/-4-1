@@ -1,3 +1,8 @@
+:root{
+    --footer-color:#2F303A;
+    
+    --main-color:#a9aaae;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -5,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #FFFF;
+    background-color:var(--footer-color);
     color: #212121;
     padding: 10px;
     text-align: start;
@@ -61,6 +66,7 @@ header nav p {
 }
 
 main {
+    background-color: var(--main-color);
     padding: 50px;
 }
 
@@ -72,7 +78,7 @@ main h2 {
 
 
 footer {
-    background-color: #2F303A;
+    background-color:var(--footer-color);
     color: white;
     padding: 10px;
     text-align: left;
@@ -91,9 +97,4 @@ li{
     font-size: 30px;
     color: #FFFF;
     text-decoration: none;
-}
-:root{
-    --footer-color:#2F303A;
-    --header-color:#2F303A;
-    --main-color:#a9aaae;
 }
