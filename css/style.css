@@ -3,15 +3,95 @@
     
     --main-color:#ffffff;
 }
+@font-face {
+    font-family:"Roboto" ;
+    src: url( 'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');}
+    
+@font-face {
+    font-family:"Raleway" ;
+    src: url( 'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
+
+
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family:"Roboto";
     line-height: 1.6;
     color: #333;
 }
+h4{
+    color: #212121;
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+h3{
+    
+color: #212121;
+
+
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+.services{
+    color: #212121;
+
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+#portfolio{
+    text-align: center;
+}
+
+#portfolio img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    
+
+}
+.instant{
+    color: #212121;
+
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.groto{
+    color: #212121;
+
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
 
 header {
-    background-color:var(--footer-color);
-    color: #212121;
+    background-color:var(--main-color);
+   
     padding: 10px;
     text-align: start;
 }
@@ -31,15 +111,23 @@ header nav ul li a {
     
    text-decoration: none;
 }
-.br{
+#br{
     font-weight: bold;
     font-size: 30px;
     color: #212121;
     text-decoration: none;
+    font-family: "Raleway";
 }
+
 
 header nav p {
     margin: 10px 0;
+}
+#return{
+    color: #FFFF;
+}
+.true{
+    color: #ffffff;
 }
 .email{
     color: #2196F3;}
@@ -77,6 +165,7 @@ main h2 {
 
 
 
+
 footer {
     background-color:var(--footer-color);
     color: white;
@@ -90,6 +179,14 @@ footer p {
 
 li{
     list-style: none;
+    color: #757575;
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
 }
 
 .white{
