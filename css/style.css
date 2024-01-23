@@ -24,7 +24,7 @@ body {
 h4{
     color: #212121;
 
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 14px;
 font-style: normal;
 font-weight: 700;
@@ -37,7 +37,7 @@ h3{
 color: #212121;
 
 
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -48,7 +48,7 @@ letter-spacing: 0.48px;
     color: #212121;
 
 text-align: center;
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -70,7 +70,7 @@ letter-spacing: 1.08px;
     color: #212121;
 
 text-align: center;
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -81,7 +81,7 @@ letter-spacing: 1.08px;
     color: #212121;
 
 text-align: center;
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
