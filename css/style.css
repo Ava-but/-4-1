@@ -18,10 +18,10 @@ body {
     line-height: 1.6;
     color: #333;
 }
-h4{
+.information-name{
     color: #212121;
 
-font-family: "Roboto";
+
 font-size: 14px;
 font-style: normal;
 font-weight: 700;
@@ -29,12 +29,12 @@ line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
-h3{
+.team-name{
     
 color: #212121;
 
 
-font-family: 'Roboto';
+
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -45,40 +45,40 @@ letter-spacing: 0.48px;
     color: #212121;
 
 text-align: center;
-font-family: 'Roboto';
+
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
 }
-#portfolio{
+.team {
     text-align: center;
 }
 
-#portfolio img{
+.team .team-photo{
     display: block;
     margin-left: auto;
     margin-right: auto 
     
 
 }
-.instant{
+.services-name{
     color: #212121;
 
 text-align: center;
-font-family: 'Roboto';
+
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
 }
-.groto{
+.team-logo{
     color: #212121;
 
 text-align: center;
-font-family: 'Roboto';
+
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
