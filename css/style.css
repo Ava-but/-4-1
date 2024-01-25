@@ -108,7 +108,7 @@ header nav ul li a {
     
    text-decoration: none;
 }
-#br{
+.header-logo{
     font-weight: bold;
     font-size: 30px;
     color: #212121;
@@ -168,6 +168,7 @@ footer {
     color: white;
     padding: 10px;
     text-align: left;
+    font-family: 'Roboto';
 }
 
 footer p {
@@ -178,7 +179,7 @@ li{
     list-style: none;
     color: #757575;
 
-font-family: Roboto;
+
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -186,9 +187,11 @@ line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
 }
 
-.white{
+.contact-Web{
+
     font-weight: bold;
     font-size: 30px;
     color: #FFFF;
     text-decoration: none;
+    font-family:"Raleway"
 }
