@@ -84,6 +84,7 @@ body {
     letter-spacing: 1.08px;
 }
 
+
 .team-logo {
     color: var(--body-color);
 
@@ -99,7 +100,7 @@ body {
 
 header {
     background-color: var(--main-color);
-
+   
     padding: 10px;
     text-align: start;
 }
@@ -212,3 +213,78 @@ li {
     text-decoration: none;
     font-family: "Raleway"
 }
+.services-list{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 94px;
+    margin-top: 50px;
+}
+
+.services-name{
+    text-align: center;
+}
+
+.information-list{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 94px;
+    margin-top: 94px;
+}
+
+.information-item{
+    width: 270px;
+}
+
+.team{
+    padding-bottom: 94px;
+    padding-top: 94px;
+} 
+
+.team-list{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+.team-item img{
+    width: 270px;
+    height: 260px;
+
+
+}
+
+.team-list li{
+    width: 270px;
+    background-color: white;
+    height: 368px;
+}
+
+.team-list h3{
+    padding-top: 30px;
+}
+.team-list p{
+    padding-top: 10px   ;
+}
+.header-navigation{
+    display: flex;
+   justify-content: space-around;
+   height: 80px;
+   width: 1600px;
+}
+
+.contact{
+    display: flex;
+    width: 1600px;
+    height: 252px;
+    flex-direction: column;
+    
+
+}
+
+
