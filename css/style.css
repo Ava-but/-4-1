@@ -286,5 +286,31 @@ li {
     
 
 }
+.header-navigation {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    width: 1600px;
+    
+
+}
+
+.header-list button:hover{
+    background-color: var(--back-color);
+    transition: 0.7s;
+
+}
+.header-list button{
+    display: inline-flex;
+    top: 50%;
+    background-color: var(--main-color);
+    text-align: center;
+    flex-wrap: wrap;
+    color: var(--body-color);
+    border: none;
+    justify-content: center;
+    
+}
+
 
 
