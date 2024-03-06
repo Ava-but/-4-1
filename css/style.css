@@ -2,10 +2,13 @@
 
 :root {
     --footer-color: #2F303A;
-
+--back-color:#2196F3;
     --main-color: #ffffff;
     --body-color: #212121;
     --header-color: #333;
+    --none-color:#757575;
+    --who-color:#F5F4FA;
+    
 }
 
 
@@ -61,9 +64,7 @@ body {
     letter-spacing: 1.08px;
 }
 
-.team {
-    text-align: center;
-}
+
 
 .team .team-photo {
     display: block;
@@ -100,14 +101,16 @@ body {
 
 header {
     background-color: var(--main-color);
-   
-    padding: 10px;
+   width: 1170px;
+    margin: 0 auto;
     text-align: start;
+    
 }
 
 header nav ul {
-    padding: 0;
+    
     list-style: none;
+    margin-right: 344px;
 }
 
 header nav ul li {
@@ -116,18 +119,16 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #212121;
+    color: var(--body-color);
 
     text-decoration: none;
 }
 
-.header-logo {
-    font-weight: bold;
-    font-size: 30px;
-    color: #212121;
-    text-decoration: none;
-    font-family: "Raleway";
+.email{
+    margin-right: 50px;
 }
+
+
 
 
 header nav p {
@@ -135,46 +136,68 @@ header nav p {
 }
 
 #return {
-    color: #FFFF;
+    color: var(--main-color);
 }
 
 .true {
-    color: #ffffff;
+    color: var(--main-color);
 }
 
 .email {
-    color: #2196F3;
+    color: var(--back-color);
 }
 
-.effective-solutions-header {
-    background-color: #2F303A;
-    color: white;
+.solutions-header {
+    background-color: var(--body-color);
+    color: var(--main-color);
     font-size: 28px;
-    padding: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+    height: 800px;
     text-align: center;
-    text-decoration-color: #2196F3;
+    text-decoration-color: var(--back-color);
 }
 
-.effective-solutions-header input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #2196F3;
-    color: white;
+.solutions-header p{
+    width: 696px;
+height: 120px;
+margin: 0 auto;
+font-size: 44px;
+
+}
+
+
+
+
+.solutions-header button {
+    
+    width: 218px;
+    height: 50px;
+    background-color: var(--back-color);
+    color: var(--main-color);
     border: none;
+    border-radius: 4px;
     cursor: pointer;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 18px;
 }
 
-.effective-solutions-header input[type="submit"]:hover {
-    background-color: #2196F3;
+.solutions-header button:hover {
+    background-color: var(--back-color);
 }
 
 main {
     background-color: var(--main-color);
-    padding: 50px;
+   
 }
 
 main h2 {
     text-align: center;
-    padding: 20px 0;
+    
 }
 
 
@@ -182,7 +205,7 @@ main h2 {
 
 footer {
     background-color: var(--footer-color);
-    color: white;
+    color: var(--main-color);
     padding: 10px;
     text-align: left;
     font-family: 'Roboto';
@@ -194,14 +217,14 @@ footer p {
 
 li {
     list-style: none;
-    color: #757575;
+    color: var(--none-color);
 
 
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    /* 171.429% */
+   
     letter-spacing: 0.42px;
 }
 
@@ -209,7 +232,7 @@ li {
 
     font-weight: bold;
     font-size: 30px;
-    color: #FFFF;
+    color: var(--main-color);
     text-decoration: none;
     font-family: "Raleway"
 }
@@ -242,6 +265,8 @@ li {
 .team{
     padding-bottom: 94px;
     padding-top: 94px;
+    background-color: var(--who-color);
+    text-align: center;
 } 
 
 .team-list{
@@ -261,7 +286,7 @@ li {
 
 .team-list li{
     width: 270px;
-    background-color: white;
+    background-color: var(--main-color);
     height: 368px;
 }
 
@@ -271,28 +296,31 @@ li {
 .team-list p{
     padding-top: 10px   ;
 }
-.header-navigation{
-    display: flex;
-   justify-content: space-around;
-   height: 80px;
-   width: 1600px;
-}
+
 
 .contact{
     display: flex;
-    width: 1600px;
+    width: 1170px;
     height: 252px;
     flex-direction: column;
+    margin: 0 auto;
     
 
 }
 .header-navigation {
     display: flex;
-    justify-content: space-around;
+    
+    align-items: center;
     height: 80px;
-    width: 1600px;
+   
     
 
+}
+
+.header-navigation ul{
+    display: flex;
+    height: 31px;
+    width: 145px;
 }
 
 .header-list button:hover{
@@ -300,9 +328,9 @@ li {
     transition: 0.7s;
 
 }
-.header-list button{
+.header-item button{
     display: inline-flex;
-    top: 50%;
+    
     background-color: var(--main-color);
     text-align: center;
     flex-wrap: wrap;
@@ -312,5 +340,21 @@ li {
     
 }
 
+.main-button{
+    background-color: var(--main-color);
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--body-color);
+    text-decoration: none;
+    font-family: "Raleway";
+    margin-right:93px ;
+}
+
+.email{
+    margin-right: 50px;
+}
 
 
