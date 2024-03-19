@@ -12,9 +12,12 @@
 }
 
 
-.information-item1::before{
+.information-text1::before
+{
     display: flex;
+    background-size: contain;
     background-image: url("/img/Vector.png");
+    
     background-color: red;
     width: 65.32px;
     height: 70px;
