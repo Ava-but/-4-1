@@ -20,8 +20,8 @@
     background-image: url("../img/Vector.png");
     background-repeat: no-repeat;
     background-color: var(--who-color);
-    background-position: 70px, 70px;
-    
+    background-position: center;
+    background-size: 70px 70px;
     width: 270px;
 height: 90px;
 }
@@ -35,8 +35,8 @@ height: 90px;
     background-image: url("../img/Vector\ \(1\).png");
 
     background-color: var(--who-color);
-    background-position: 70px, 70px;
-    
+    background-position: center;
+    background-size: 70px 70px;
     width: 270px;
 height: 90px;
 
@@ -48,13 +48,13 @@ height: 90px;
     content: "";
     display: flex;
     background-repeat: no-repeat;
-    background-size: contain;
+    
     background-image: url("../img/Vector\ \(3\).png");
 background-position: center;
 
     background-color: var(--who-color);
-    background-position: 70px, 70px;
-    
+    background-position: center;
+    background-size: 70px 70px;
     width: 270px;
 height: 90px;
 
@@ -71,8 +71,8 @@ height: 90px;
     background-image: url("../img/Vector\ \(4\).png");
 
     background-color: var(--who-color);
-    background-position: 70px, 70px;
-    
+    background-position: center;
+    background-size: 70px 70px;
     width: 270px;
 height: 90px;
 
