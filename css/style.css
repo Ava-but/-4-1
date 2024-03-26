@@ -137,6 +137,8 @@ body {
     margin-right: auto
 }
 
+
+
 .services-name {
     color: var(--body-color);
 
@@ -213,6 +215,10 @@ header nav p {
 }
 
 .solutions-header {
+    content: "";
+    background-image: url("../img/team.webp");
+    background-repeat: no-repeat;
+   background-size: cover;
     background-color: var(--body-color);
     color: var(--main-color);
     font-size: 28px;
@@ -249,6 +255,7 @@ header nav p {
     margin: 0 auto;
     margin-top: 30px;
     font-size: 18px;
+    box-shadow: -2px 10px 7px -5px rgba(0,0,0,0.24);
 }
 
 .solutions-header button:hover {
@@ -352,6 +359,12 @@ li {
 
 }
 
+.team-item{
+    box-shadow: -2px 10px 7px -5px rgba(0,0,0,0.24);
+        
+
+}
+
 .team-list li {
     width: 270px;
     background-color: var(--main-color);
@@ -423,7 +436,9 @@ li {
     text-decoration: none;
     font-family: "Raleway";
     margin-right: 93px;
+    
 }
+
 
 .email {
     margin-right: 50px;
